@@ -3,7 +3,7 @@ Python program that simulates the results of the 23/24 Premier League season 10 
 
 The code first imports the following libraries:
 
-"statsmodels.api"
+[statsmodels.api]
 statsmodels.formula.api
 pandas
 matplotlib.pyplot
