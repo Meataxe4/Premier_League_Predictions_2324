@@ -3,15 +3,23 @@ Python program that simulates the results of the 23/24 Premier League season 10 
 
 The code first imports the following libraries:
 
+
 statsmodels.api
+
 statsmodels.formula.api
+
 pandas
+
 matplotlib.pyplot
+
 numpy
+
 seaborn
+
 scipy.stats
 
-The code then reads the CSV file Pl_2223 xG.csv into a Pandas DataFrame. The CSV file contains the expected goals (xG) for each team in each match of the Premier League season. You could make the assumption that xGa (expected goals against) is also used as part of the modle but this isn't explicit in the code.
+
+The code then reads the CSV file Pl_2223 xG.csv into a Pandas DataFrame. You will need to save on your machine and alter the code on line 51. The CSV file contains the expected goals (xG) for each team in each match of the Premier League season. You could make the assumption that xGa (expected goals against) is also used as part of the modle but this isn't explicit in the code.
 
 The relegated teams have been removed and replaced with promoted teams from the Championship, again there has been some assumptions over the xGa used for the newly promoted teams.
 
