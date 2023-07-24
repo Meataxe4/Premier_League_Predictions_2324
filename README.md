@@ -45,6 +45,15 @@ Once all 10 seasons have been simulated an output is provided of each season.
 
 The code then produces a mean of the 10 seasons for each team to provide a measure of central tendency of a probability distribution along median and mode. The code then sorts the teams by points in descending order.
 
-The code finally prints the Premier League table.
+The code prints the Premier League table with the mean results of the 10 seasons.
+
+Finally, the code prints the following visuals:
+
+Plots a histogram of predicted points.
+
+Calculates confidence intervals for each team's points.
+
+Plots uncertainty intervals for each team's mean predicted points.
+
 
 Important to note that every time you run the code you will get different results that is becuase Football is dynamic and there is no certainty of score or results, however what this model attempts to achieve is that by taking into consideration expected goals by each team we can make a scientific assesment of a predicted score and result.
